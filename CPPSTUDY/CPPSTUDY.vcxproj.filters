@@ -25,6 +25,12 @@
     <Filter Include="HomeWork">
       <UniqueIdentifier>{83a5b58b-3221-4018-af72-90574e9490ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ArrayQueue">
+      <UniqueIdentifier>{8d213734-bdca-495e-bc13-2fcd004e7668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FixedDeque">
+      <UniqueIdentifier>{cd702812-cd3a-4c7f-959a-1851274af56f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
@@ -83,6 +89,12 @@
     </ClInclude>
     <ClInclude Include="VectorObjPool.h">
       <Filter>ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayQueue.h">
+      <Filter>ArrayQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedDeque.h">
+      <Filter>FixedDeque</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -202,6 +214,12 @@
     </ClCompile>
     <ClCompile Include="C:\Users\yeon\Desktop\MemoryManager.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayQueue.cpp">
+      <Filter>ArrayQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedDeque.cpp">
+      <Filter>FixedDeque</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
