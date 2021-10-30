@@ -17,10 +17,95 @@
 #include <unordered_map>
 #include <cmath>
 
-#include <xna>
+using namespace std;
 
-int main()
-{
-    std::cout << "he";
-    return 0;
+class Temp {
+
+public:
+
+	Temp() {
+
+		cout << "Create Temp" << endl;
+
+	}
+
+	~Temp() {
+
+		cout << "Destroy Temp" << endl;
+
+	}
+
+};
+
+
+
+class Base {
+
+private:
+
+	Temp t;
+
+public:
+
+	Base() {
+
+		cout << "Create Base" << endl;
+
+	}
+
+	~Base() {
+
+		cout << "Destroy Base" << endl;
+
+	}
+
+	virtual void show() const {
+
+		cout << "show Base" << endl;
+
+	}
+
+};
+
+
+
+class Derived : public Base {
+
+public:
+
+	Derived() {
+
+
+
+	}
+
+	void show() const {
+		cout << "show Derived" << endl;
+
+	}
+
+};
+
+
+
+void test(Base obj) {
+
+	obj.show();
+
+}
+
+
+
+int main(void) {
+
+	Derived myDerived;
+
+	cout << "before call func" << endl;
+
+	test(myDerived);
+
+	cout << "after call func" << endl;
+
+	return 0;
+
 }

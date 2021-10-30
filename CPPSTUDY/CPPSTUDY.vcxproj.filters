@@ -31,6 +31,9 @@
     <Filter Include="FixedDeque">
       <UniqueIdentifier>{cd702812-cd3a-4c7f-959a-1851274af56f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SortAlgorithm">
+      <UniqueIdentifier>{4e4a85ba-45e9-4788-a79a-b0501308e87a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
@@ -220,6 +223,18 @@
     </ClCompile>
     <ClCompile Include="FixedDeque.cpp">
       <Filter>FixedDeque</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSort.cpp">
+      <Filter>SortAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionSort.cpp">
+      <Filter>SortAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
+      <Filter>SortAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>SortAlgorithm</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
